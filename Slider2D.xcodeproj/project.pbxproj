@@ -11,6 +11,11 @@
 		D474BB9A2BF2609F00361E5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D474BB992BF2609F00361E5D /* ContentView.swift */; };
 		D474BB9C2BF260A100361E5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D474BB9B2BF260A100361E5D /* Assets.xcassets */; };
 		D474BB9F2BF260A100361E5D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D474BB9E2BF260A100361E5D /* Preview Assets.xcassets */; };
+		D474BBA72BF260B400361E5D /* Slider2DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D474BBA62BF260B400361E5D /* Slider2DView.swift */; };
+		D49862D82BF2A7F100AE3C63 /* CoreGraphics+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49862D72BF2A7F100AE3C63 /* CoreGraphics+Extensions.swift */; };
+		D49862DC2BF2A96500AE3C63 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D49862D92BF2A96500AE3C63 /* .gitignore */; };
+		D49862DD2BF2A96500AE3C63 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = D49862DA2BF2A96500AE3C63 /* .swiftlint.yml */; };
+		D49862DE2BF2A96500AE3C63 /* .overcommit.yml in Resources */ = {isa = PBXBuildFile; fileRef = D49862DB2BF2A96500AE3C63 /* .overcommit.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		D474BB9B2BF260A100361E5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D474BB9E2BF260A100361E5D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D474BBA02BF260A100361E5D /* Slider2D.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Slider2D.entitlements; sourceTree = "<group>"; };
+		D474BBA62BF260B400361E5D /* Slider2DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider2DView.swift; sourceTree = "<group>"; };
+		D49862D72BF2A7F100AE3C63 /* CoreGraphics+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreGraphics+Extensions.swift"; sourceTree = "<group>"; };
+		D49862D92BF2A96500AE3C63 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		D49862DA2BF2A96500AE3C63 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		D49862DB2BF2A96500AE3C63 /* .overcommit.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .overcommit.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,9 @@
 		D474BB8B2BF2609F00361E5D = {
 			isa = PBXGroup;
 			children = (
+				D49862D92BF2A96500AE3C63 /* .gitignore */,
+				D49862DB2BF2A96500AE3C63 /* .overcommit.yml */,
+				D49862DA2BF2A96500AE3C63 /* .swiftlint.yml */,
 				D474BB962BF2609F00361E5D /* Slider2D */,
 				D474BB952BF2609F00361E5D /* Products */,
 			);
@@ -54,6 +67,8 @@
 			children = (
 				D474BB972BF2609F00361E5D /* Slider2DApp.swift */,
 				D474BB992BF2609F00361E5D /* ContentView.swift */,
+				D49862D72BF2A7F100AE3C63 /* CoreGraphics+Extensions.swift */,
+				D474BBA62BF260B400361E5D /* Slider2DView.swift */,
 				D474BB9B2BF260A100361E5D /* Assets.xcassets */,
 				D474BBA02BF260A100361E5D /* Slider2D.entitlements */,
 				D474BB9D2BF260A100361E5D /* Preview Content */,
@@ -127,7 +142,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D49862DD2BF2A96500AE3C63 /* .swiftlint.yml in Resources */,
 				D474BB9F2BF260A100361E5D /* Preview Assets.xcassets in Resources */,
+				D49862DE2BF2A96500AE3C63 /* .overcommit.yml in Resources */,
+				D49862DC2BF2A96500AE3C63 /* .gitignore in Resources */,
 				D474BB9C2BF260A100361E5D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,7 +158,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D474BB9A2BF2609F00361E5D /* ContentView.swift in Sources */,
+				D49862D82BF2A7F100AE3C63 /* CoreGraphics+Extensions.swift in Sources */,
 				D474BB982BF2609F00361E5D /* Slider2DApp.swift in Sources */,
+				D474BBA72BF260B400361E5D /* Slider2DView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
