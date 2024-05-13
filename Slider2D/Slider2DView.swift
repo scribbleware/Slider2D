@@ -40,6 +40,7 @@ struct Slider2DView: View {
     let cornerRadius: CGFloat = 15
     let handleColor: Color = .purple
     let size: CGSize = CGSize(width: 400, height: 400)
+    let snapTolerance: CGFloat = 20
     let title: String
 
     @State private var dotAlpha: CGFloat = 1
@@ -59,7 +60,7 @@ struct Slider2DView: View {
 
         let magnet = Magnets.closest(to: intendedPosition, inSpace: size)
 
-        if magnet.distance(to: intendedPosition) < 20 {
+        if sticky && magnet.distance(to: intendedPosition) < snapTolerance {
             dotOffset = CGPoint(x: magnet.x - dotPosition.x, y: magnet.y - dotPosition.y)
             dotAlpha = 1
         } else {
@@ -79,7 +80,7 @@ struct Slider2DView: View {
         let intendedPosition = CGPoint(x: gOffset.x + dotPosition.x, y: gOffset.y + dotPosition.y)
         let magnet = Magnets.closest(to: intendedPosition, inSpace: size)
 
-        if magnet.distance(to: intendedPosition) < 20 {
+        if sticky && magnet.distance(to: intendedPosition) < snapTolerance {
             dotPosition = CGPoint(x: magnet.x, y: magnet.y)
         } else {
             dotPosition = CGPoint(
@@ -87,6 +88,8 @@ struct Slider2DView: View {
                 y: gOffset.y + dotPosition.y
             )
         }
+
+        dotAlpha = 1
     }
 
     var body: some View {

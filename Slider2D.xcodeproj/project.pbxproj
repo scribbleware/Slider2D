@@ -16,6 +16,7 @@
 		D49862DC2BF2A96500AE3C63 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D49862D92BF2A96500AE3C63 /* .gitignore */; };
 		D49862DD2BF2A96500AE3C63 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = D49862DA2BF2A96500AE3C63 /* .swiftlint.yml */; };
 		D49862DE2BF2A96500AE3C63 /* .overcommit.yml in Resources */ = {isa = PBXBuildFile; fileRef = D49862DB2BF2A96500AE3C63 /* .overcommit.yml */; };
+		D49862E12BF2AD3300AE3C63 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = D49862E02BF2AD3300AE3C63 /* demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		D49862D92BF2A96500AE3C63 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		D49862DA2BF2A96500AE3C63 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		D49862DB2BF2A96500AE3C63 /* .overcommit.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .overcommit.yml; sourceTree = "<group>"; };
+		D49862DF2BF2A9AC00AE3C63 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D49862E02BF2AD3300AE3C63 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +49,8 @@
 		D474BB8B2BF2609F00361E5D = {
 			isa = PBXGroup;
 			children = (
+				D49862DF2BF2A9AC00AE3C63 /* README.md */,
+				D49862E02BF2AD3300AE3C63 /* demo.gif */,
 				D49862D92BF2A96500AE3C63 /* .gitignore */,
 				D49862DB2BF2A96500AE3C63 /* .overcommit.yml */,
 				D49862DA2BF2A96500AE3C63 /* .swiftlint.yml */,
@@ -143,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D49862DD2BF2A96500AE3C63 /* .swiftlint.yml in Resources */,
+				D49862E12BF2AD3300AE3C63 /* demo.gif in Resources */,
 				D474BB9F2BF260A100361E5D /* Preview Assets.xcassets in Resources */,
 				D49862DE2BF2A96500AE3C63 /* .overcommit.yml in Resources */,
 				D49862DC2BF2A96500AE3C63 /* .gitignore in Resources */,
